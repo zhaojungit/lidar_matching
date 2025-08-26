@@ -1,4 +1,7 @@
-# 软件名：lidar_matching
+# 说明
+使用贪婪搜索策略匹配激光雷达点云-2d
+
+## 软件名：lidar_matching
 
 --------
 
