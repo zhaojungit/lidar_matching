@@ -1,0 +1,16 @@
+lidar_matching:
+  ros__parameters:
+    # Frame configuration
+    points_frame_id: "laser"  # 子坐标系名称
+    map_frame_id: "map"           # 父坐标系名称
+    
+    # Mapping configuration
+    map_resolution: 0.03      # 地图分辨率
+    real_width: 12            # 真实地图宽度m
+    real_height: 20           # 真实地图高度m
+    angle_resolution: 0.174533      # 角度搜索分辨率
+    step_size: 8              # 搜索步长 map_resolution*step_size
+    
+    # Control keyframe selection
+    min_add_scan_shift: 0.1   # 最小扫描位移
+    min_add_scan_angle: 0.4   # 最小扫描角度
